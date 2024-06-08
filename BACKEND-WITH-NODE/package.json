@@ -1,0 +1,26 @@
+{
+  "name": "backend-with-node",
+  "version": "1.0.0",
+  "description": "Simple API for backend app with node.JS",
+  "main": "nodemon --exec babel-node src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "ava"
+  },
+  "keywords": [
+    "Express.JS"
+  ],
+  "author": "Realzy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "ava": "^6.1.3",
+    "nodemon": "^3.1.3"
+  }
+}
