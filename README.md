@@ -1,0 +1,1 @@
+### This project directory contains files on both the server side with NodeJS and client-side with React.
